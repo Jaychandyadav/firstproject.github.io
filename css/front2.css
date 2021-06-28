@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../image/front1/photo-1562813733-b31f71025d54.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;        
+}
+
+form {
+    margin: 0 auto;
+    align-items: center;     /* when you will write margin: 0 auto then it will run */
+    width: 450px;
+    
+    transition: 0.25s;
+}
+
+#menu {
+    margin-top: 180px;
+    width: 450px;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: 0.25s;
+}
+
+#note {
+    display: flex;
+}
+
+#star {
+    margin-left: 8px;
+    color: red;
+    margin-top: 9px;
+}
+
+#mes {
+    margin-left: 12px;
+    margin-top: 8px;
+    height: 2px;
+}
+
+#note2 {
+    display: flex;
+}
+
+#star2 {
+    margin-left: 8px;
+    color: red;
+    margin-top: 9px;
+}
+
+#mes2 {
+    margin-left: 12px;
+    margin-top: 8px;
+    height: 2px;
+}
+
+button {
+    margin-top: 50px;
+    background-color: #09d10f;;;
+    color: rgb(8, 8, 8);
+    height: 32px;
+    width: 60px;
+    border: 2px solid rgba(226, 4, 115, 0.808);
+    border-radius: 14px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #f31303;;
+    color: white;
+    border:2px solid rgb(4, 14, 156);
+    width:80px ;
+    padding: 5px 15px;
+    box-shadow: 0 0.5em 0.7em -0.1em rgb(8, 161, 3);
+    cursor: pointer;
+    font-size: 17px;
+    font-family::'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+#menu:hover {
+    border: 2px solid rgb(20, 17, 17);
+    padding: 4px;
+    border-radius: 10px;
+}

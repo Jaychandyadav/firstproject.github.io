@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+   
+    height: 50px;
+    border: 2px double rgb(63, 40, 116);
+    position: static;
+}
+body {
+    background-image: url(../image/1\ \(2\).jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;        /* zoom but body background is fixed not change */
+}
+
+form {
+    width: 400px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: px;
+    text-align: center;
+    
+}
+
+div {
+    margin-top: 160px;
+}
+
+div label {
+    color: #FFFF00;
+    font-size: 20px;
+    font-weight: 10;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    transition: all 0.25s;  
+}
+
+button {
+    font-size: 14px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #008000;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    font-weight: 400;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.25s;
+    
+}
+
+input {
+    border: 1px solid black ;
+    width: 178px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 4px;
+    letter-spacing: 1.5px;
+    font-family:sans-serif; font-size:16px; line-height:20px;
+    transition: all 0.25s;
+    padding-left: 7px;            /* input take  space  some space during input*/
+    margin-top: 14px;
+} 
+
+button:hover {
+    background-color: #7CFC00;
+    color: black;
+    border:2px solid red;
+    box-shadow: 2px magenta;
+    padding: 5px 15px;
+    box-shadow: 0 0.7em 0.5em -0.4em rgb(226, 250, 10);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 40;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+input:hover {
+    background-color: white;
+    border: white;
+    width: 220px;
+    height: 22px;
+}
+
+
+input[type="email"]::placeholder { 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+i {
+    color: #7CFC00;
+    margin-top: 200px;
+}
+
+#developer {
+    margin-top: 211px;
+    text-align: end;  
+}
+
+#name {
+    height: 20px;
+    width: 178px;
+    border-radius: 5px;
+}
+
+#name:hover {
+    background-color: white;
+    border: white;
+    width: 220px;
+    height: 22px;
+    
+}
+
+input[type="text"]::placeholder { 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#f1 {
+    border: 1px solid #731ffab0;
+    height: 137px;
+    background-color: #3406b415;
+    border-radius: 6px;
+    margin-top: 146px; 
+}
+
+
+
